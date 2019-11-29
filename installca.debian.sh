@@ -1,5 +1,5 @@
 #!/bin/bash
-CANAME="yourca"
+CANAME="${1}"
 
 if [ "$(whoami)" != "root" ]; then
     echo "This needs to be root :("
